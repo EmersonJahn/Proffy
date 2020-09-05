@@ -125,7 +125,7 @@
     background: var(--color-secondary-dark);
 }
 
-#page-study mains .no-results {
+#page-study main .no-results {
     max-width: 30rem;
     margin: 12rem auto;
     text-align: center;
