@@ -56,7 +56,7 @@
                                 <input name="time" id="time" type="time" value="{{filters.time}}">
                             </div>
 
-                            <button type="submit">Filtrar</button>
+                            <button type="submit">Buscar</button>
 
                         </form>
                     </strong>
@@ -66,8 +66,12 @@
 
             <main>
 
-                {% if proffys == "" %}
-                    <p class="no-results">Nenhum professor encontrado na sua pesquisa</p>
+                {% if not proffys %}
+                    <p class="empty-filters">Preencha todos os campos para buscar</p>
+                {% endif %}
+                
+                {% if proffys == ""  %}
+                    <p class="no-results">Não há dados para os filtros selecionados</p>
 
                 {% else %}
 

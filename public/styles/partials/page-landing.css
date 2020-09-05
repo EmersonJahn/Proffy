@@ -77,6 +77,10 @@
     justify-content: center;
 }
 
+#page-landing #container p {
+    margin-top: 8.7rem;
+}
+
 .total-connections img {
     margin-left: 0.8rem;
 }
@@ -88,6 +92,10 @@
 
     .hero-image {
         height: 50rem;
+    }
+
+    #page-landing #container p {
+        text-align: center;
     }
 
 }

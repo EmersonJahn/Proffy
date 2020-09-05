@@ -29,7 +29,7 @@
     justify-content: center;
     text-decoration: none;
     transition: background 0.2s;
-    margin-top: 3.2rem;
+    margin-top: 5.7rem;
 }
 
 #search-teachers button:hover {
@@ -129,6 +129,14 @@
     max-width: 30rem;
     margin: 12rem auto;
     text-align: center;
+    color: rgb(158, 6, 6);
+}
+
+#page-study main .empty-filters {
+    max-width: 30rem;
+    margin: 12rem auto;
+    text-align: center;
+    /* color: rgb(158, 6, 6); */
 }
 
 @media (min-width: 700px) {
