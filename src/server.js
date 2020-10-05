@@ -18,7 +18,7 @@ server
 .use(express.urlencoded({extended: true})) // mascarar a url
 .use(express.static("public"))
 .get("/", pageLanding)
-.get("/study", pageStudy)
-.get("/give-classes", pageGiveClasses)
-.post("/save-classes", saveClasses)
+.get("./study", pageStudy)
+.get("./give-classes", pageGiveClasses)
+.post("./save-classes", saveClasses)
 .listen(5500)
